@@ -1,0 +1,88 @@
+body{
+  color: #7D7D7D;
+  background-color: #E6E6E6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', serif;
+  color: #DD5555;
+}
+
+div{
+  background-color: white;
+  padding: 37px;
+  width: 500px;
+  text-align: center;
+  margin:55px auto;"
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+a {
+  color: #7D7D7E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #DD5555;
+}
+
+.img-circle{
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0px 0px 1px black;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.img-circle:hover{
+  transform: rotate(1deg) scale(1.1);
+  -webkit-transform: rotate(1deg) scale(1.1);
+}
+
+.card-white{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline{
+  padding-left: 0;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 0 10px;
+
+}
+
+.list-inline i{
+  font-size: 30px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: justify;
+}
+
+#movies {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
